@@ -1,0 +1,24 @@
+{
+    "name": "shellect/crb-exchange-lib",
+    "description": "Package for currencies exchange",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Олег Евстюнин",
+            "email": "evstyunino@gmail.com"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Eov\\CrbExchangeLib\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "ext-xmlreader": "*"
+    },
+    "require-dev": {}
+}
